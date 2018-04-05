@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <title>Edit</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body onload="loadForm();">
+        <div class="container">
+            <h2 id="form-title">Edit user</h2>
+            <form action="/action_page.php">
+                <div class="form-group">
+                    <label for="">Name:</label>
+                    <input type="string" class="form-control" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="">Username:</label>
+                    <input type="string" class="form-control" id="username" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="">City:</label>
+                    <input type="string" class="form-control" id="city" name="city">
+                </div>
+                <div class="form-group">
+                    <label for="">Company:</label>
+                    <input type="string" class="form-control" id="company" name="company">
+                </div>
+                <input id="submit" type="button" value="Submit" onclick="patchTable();"/>
+                <div id = "alert_placeholder"></div>
+            </form>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
